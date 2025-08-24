@@ -1,0 +1,48 @@
+.floating-bubbles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bubble {
+  position: absolute;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 182, 193, 0.3)
+  );
+  border-radius: 50%;
+  border: 2px solid rgba(255, 182, 193, 0.5);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 182, 193, 0.3);
+  z-index: 1;
+}
+
+.bubble::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 20%;
+  height: 20%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bubble {
+    border-width: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bubble {
+    border-width: 1px;
+  }
+}
