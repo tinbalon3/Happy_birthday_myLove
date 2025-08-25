@@ -13,6 +13,9 @@ const WelcomeModal = ({ onClose }) => {
     "/assests/images/pic3.jpg",
     "/assests/images/pic4.jpg",
     "/assests/images/pic5.jpg",
+    "/assests/images/pic6.jpg",
+    "/assests/images/pic7.jpg",
+    "/assests/images/pic8.jpg",
     "/assests/images/pic_final.jpg",
   ];
 

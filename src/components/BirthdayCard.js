@@ -124,6 +124,27 @@ const BirthdayCard = ({ onOpenGame }) => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />
+            <motion.img
+              src="/assests/images/pic6.jpg"
+              alt="Birthday Celebration 6"
+              className="gallery-image"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            />
+            <motion.img
+              src="/assests/images/pic7.jpg"
+              alt="Birthday Celebration 7"
+              className="gallery-image"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            />
+            <motion.img
+              src="/assests/images/pic8.jpg"
+              alt="Birthday Celebration 8"
+              className="gallery-image"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            />
           </div>
 
           <div className="action-buttons">
